@@ -23,7 +23,7 @@ html {
     position: absolute;
     color: white;
     font-size: 3.3rem;
-    margin: -100px 0 0 -110px;
+    margin: -100px 0 0 0px;
     
 
 }
@@ -39,6 +39,7 @@ section + section {
 
 section div {
     text-align: center;
+    margin: 50px auto;
 }
 
 #ingredients li::marker {

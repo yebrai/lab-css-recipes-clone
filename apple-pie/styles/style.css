@@ -10,7 +10,7 @@ html {
 .image-top {
     background-image: url("../images/apple-pie.jpg");
     width: 50%;
-    padding: 400px;
+    padding: 550px;
     background-position: center;
     background-size: cover;
 
@@ -18,9 +18,8 @@ html {
 
  header h1 {
     color: white;
-    font-size: 3rem;
-    margin-left: 180px;
-    margin-top: -80px;
+    font-size: 4rem;
+    margin: -170px 0 0 120px;
 }
 
 section {
@@ -34,6 +33,7 @@ section + section {
 
 section div {
     text-align: center;
+    margin: 50px auto;
 }
 
 #ingredients li::marker {
