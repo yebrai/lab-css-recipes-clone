@@ -1,9 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:wght@100;300&display=swap');
+
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
 }
+
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: 100;
+}
+.image-top {
+    background-image: url("../images/soup.jpg");
+    padding: 430px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ header h1 {
+    position: absolute;
+    color: white;
+    font-size: 3.3rem;
+    margin: -100px 0 0 -110px;
+    
+
+}
+
+section {
+    margin: 10%;
+    border-bottom: 3px solid darkgrey;
+}
+
+section + section {
+    font-size: 0.9rem;
+}
+
+section div {
+    text-align: center;
+}
+
+#ingredients li::marker {
+    content: "- "
+}
+
+#directions li::marker {
+    content: none
+}
+
+#directions {
+    border-bottom: 0;
+
 }
