@@ -18,9 +18,9 @@ html {
 
  header h1 {
     color: white;
-    font-size: 2rem;
-    margin-left: 200px;
-    margin-top: -50px;
+    font-size: 3rem;
+    margin-left: 180px;
+    margin-top: -80px;
 }
 
 section {
@@ -29,7 +29,7 @@ section {
 }
 
 section + section {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 section div {
@@ -37,7 +37,17 @@ section div {
 }
 
 #ingredients li::marker {
-    
+    content: "- "
+}
+
+#directions li::marker {
+    content: none
+}
+
+#directions {
+    border-bottom: 0;
+
+}
 
 
 
