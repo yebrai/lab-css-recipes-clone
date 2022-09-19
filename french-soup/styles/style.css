@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:wght@100;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:wght@100;300&display=swap");
 
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 
@@ -12,45 +15,42 @@ html {
   font-weight: 100;
 }
 .image-top {
-    background-image: url("../images/soup.jpg");
-    padding: 430px;
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url("../images/soup.jpg");
+  padding: 430px;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
- header h1 {
-    position: absolute;
-    color: white;
-    font-size: 3.3rem;
-    margin: -100px 0 0 0px;
-    
-
+header h1 {
+  position: absolute;
+  color: white;
+  font-size: 3.3rem;
+  margin: -100px 0 0 0px;
 }
 
 section {
-    margin: 10%;
-    border-bottom: 3px solid darkgrey;
+  margin: 100px;
+  border-bottom: 3px solid darkgrey;
 }
 
 section + section {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 section div {
-    text-align: center;
-    margin: 50px auto;
+  text-align: center;
+  margin: 50px auto;
 }
 
 #ingredients li::marker {
-    content: "- "
+  content: "- ";
 }
 
 #directions li::marker {
-    content: none
+  content: none;
 }
 
 #directions {
-    border-bottom: 0;
-
+  border-bottom: 0;
 }
